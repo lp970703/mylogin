@@ -1,0 +1,16 @@
+definitions:
+  ApiResponse:
+    type: object
+    description: 接口统一返回格式
+    properties:
+      status:
+        type: integer
+        description: 状态码
+        example: 200
+      message:
+        type: string
+        description: 消息
+        example: ok
+      traceId:
+        type: string
+        description: 有问题拿traceId找我看日志

@@ -1,0 +1,345 @@
+{
+  "keys": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+  "mysql": {
+    "clients": {
+      "localhostSQL": {
+        "host": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "port": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "user": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "password": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "database": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "queueLimit": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js"
+      }
+    },
+    "app": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "agent": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "default": {
+      "database": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "swagger": {
+    "swaggerDefinition": {
+      "info": {
+        "title": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "version": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "description": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+        "contact": {
+          "name": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+          "url": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+          "email": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js"
+        }
+      },
+      "host": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+      "schemes": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+      "basePath": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js"
+    },
+    "apis": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js"
+  },
+  "security": {
+    "xframe": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+      "value": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csrf": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+      "ignoreJSON": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+      "type": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "protocolWhiteList": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+    "hsts": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "allowMethods": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateBySize": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "filesRotateByHour": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "maxFileSize": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "maxDays": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "hourDelimiter": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "logger": {
+    "disableConsoleAfterReady": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "outputJSON": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "consoleLevel": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "buffer": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "allowDebugAtProd": "D:\\其他电脑\\code\\mylogin-nopack\\config\\config.default.js",
+    "dir": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.local.js"
+    },
+    "enablePerformanceTimer": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-swagger-jsdoc\\config\\config.default.js",
+    "dynamic": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-swagger-jsdoc": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "swagger-jsdoc": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "prod": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+}

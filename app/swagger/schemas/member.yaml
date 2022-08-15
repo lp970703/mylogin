@@ -1,0 +1,33 @@
+definitions:
+  MemberLoginInfo:
+    type: object
+    description: 用户登录信息
+    properties: 
+      status:
+        type: boolean
+        description: true：登陆成功，false：登陆失败
+
+  MemberRegisterVO:
+    type: object
+    description: 用户注册信息
+    properties: 
+      status:
+        type: boolean
+        description: true：用户注册成功，false：用户注册失败
+
+  ResultMemberLoginInfoVO:
+    allOf:
+      - $ref: '#/definitions/ApiResponse'
+      - type: object
+        properties:
+          data:
+            $ref: '#/definitions/MemberLoginInfo'
+
+  ResultMemberRegisterVO:
+    allOf:
+      - $ref: '#/definitions/ApiResponse'
+      - type: object
+        properties:
+          data:
+            $ref: '#/definitions/MemberRegisterVO'
+    

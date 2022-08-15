@@ -1,0 +1,142 @@
+parameters:
+  tenantId:
+    name: tenantId
+    in: header
+    required: true
+    description: 租户id
+    enum:
+      - 2018092600001
+      - 2018092600002
+      - 2018092600003
+      - 2018092600004
+      - 2018092600005
+      - 2018092600006
+      - 2018092600007
+      - 2018092600008
+  tenantId?:
+    name: tenantId
+    in: header
+    required: false
+    description: 租户id
+  appId:
+    name: appId
+    in: header
+    required: true
+    enum:
+      - wx07dfb5d79541eca9
+      - wx1f7aa39009d26a79
+      - wxb12116aa64ffd6ee
+      - wxcbe61acd471528b7
+      - wxd8220eb61533aeaf
+      - wx57b2d7e8bb788dc7
+      - wx37a3e03c888a5c6f
+      - wxf166b6d4459083ce
+      - 2021002175601342
+    description: >
+      应用id:
+        * `wx07dfb5d79541eca9` - 万达广场小程序
+        * `wx1f7aa39009d26a79` - 丙晟-爱遛哒服务
+        * `wxb12116aa64ffd6ee` - 茂生活小程序
+        * `wxcbe61acd471528b7` - 新天地XINTIANDI
+        * `wxd8220eb61533aeaf` - 威尼都聚惠圈
+        * `wx57b2d7e8bb788dc7` - 惠玩商圈
+        * `wx37a3e03c888a5c6f` - 卡友福利会
+        * `wxf166b6d4459083ce` - 会员小程序,映射开发平台appid
+        * `2021002175601342` - 万达广场支付宝小程序
+
+  appId?:
+    name: appId
+    in: header
+    required: false
+    description: 应用id
+  ver:
+    name: ver
+    in: header
+    required: true
+    description: 应用版本号
+    defualt: 20210923.1
+  ver?:
+    name: ver
+    in: header
+    required: false
+    description: 应用版本号
+  token:
+    name: token
+    in: header
+    required: true
+    description: 登入令牌
+  token?:
+    name: token
+    in: header
+    required: false
+    description: 登入令牌
+  plazaId:
+    name: plazaId
+    in: header
+    required: true
+    description: 广场id
+  plazaId?:
+    name: plazaId
+    in: header
+    required: false
+    description: 广场id
+  latitude:
+    name: latitude
+    in: header
+    required: true
+    description: 纬度
+  latitude?:
+    name: latitude
+    in: header
+    required: false
+    description: 纬度
+  longitude:
+    name: longitude
+    in: header
+    required: true
+    description: 经度
+  longitude?:
+    name: longitude
+    in: header
+    required: false
+    description: 经度
+  ulatitude?:
+    name: ulatitude
+    in: header
+    required: false
+    description: 用户纬度
+  ulongitude?:
+    name: ulongitude
+    in: header
+    required: false
+    description: 用户经度
+  ulatitude:
+    name: ulatitude
+    in: header
+    required: false
+    description: 用户纬度
+  ulongitude:
+    name: ulongitude
+    in: header
+    required: false
+    description: 用户经度
+  deviceId:
+    name: deviceId
+    in: header
+    required: true
+    description: 设备id
+  deviceId?:
+    name: deviceId
+    in: header
+    required: false
+    description: 设备id
+  memberId:
+    name: memberId
+    in: header
+    required: true
+    description: 会员id
+  memberId?:
+    name: memberId
+    in: header
+    required: false
+    description: 会员id
