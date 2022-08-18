@@ -11,4 +11,7 @@ module.exports = app => {
   router.get('/member/v1/login', controller.member.login);
   router.post('/member/v1/registerUser', controller.member.registerUser);
 
+  // autojsAPI
+  router.post('/cyclone/v1/createAppLicense', controller.appLicense.createAppLicense);
+  router.post('/cyclone/v1/get/remainUseTime', controller.appLicense.getRemainUseTime);
 };

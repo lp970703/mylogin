@@ -232,7 +232,8 @@
       "egg-mysql": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
       "egg-swagger-jsdoc": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
-      "swagger-jsdoc": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
+      "swagger-jsdoc": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",
+      "uuid": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "autod": "D:\\其他电脑\\code\\mylogin-nopack\\node_modules\\egg\\config\\config.default.js",

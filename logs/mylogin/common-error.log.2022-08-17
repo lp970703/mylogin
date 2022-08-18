@@ -1,0 +1,135 @@
+2022-08-15 10:32:48,064 ERROR 15652 [-/127.0.0.1/-/4ms GET /member/v1/login?username=lopez&password=lopez] nodejs.TypeError: Cannot read properties of undefined (reading 'password')
+    at MemberService.checklogin (D:\其他电脑\code\mylogin-nopack\app\service\member.js:34:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MemberController.login (D:\其他电脑\code\mylogin-nopack\app\controller\member.js:79:17)
+    at async swaggerUI (D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\middleware\swagger.js:20:5)
+    at async D:\其他电脑\code\mylogin-nopack\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xssProtection (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\其他电脑\code\mylogin-nopack\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\其他电脑\code\mylogin-nopack\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15652
+hostname: DESKTOP-I6I98Q9
+
+2022-08-15 16:22:09,584 ERROR 22828 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 22828
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 16:45:48,853 ERROR 11888 nodejs.ClusterClientNoResponseError: client no response in 71291ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11888
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 16:50:28,956 ERROR 11888 nodejs.ClusterClientNoResponseError: client no response in 75328ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11888
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 17:42:48,869 ERROR 18008 [-/::1/-/3966ms POST /cyclone/v1/createAppLicense] nodejs.TypeError: Cannot read properties of undefined (reading 'selectByAppName')
+    at AppLicenseService.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\service\appLicense.js:48:59)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppLicenseController.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\controller\appLicense.js:49:17)
+    at async swaggerUI (D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\middleware\swagger.js:20:5)
+    at async D:\其他电脑\code\mylogin-nopack\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xssProtection (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\其他电脑\code\mylogin-nopack\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\其他电脑\code\mylogin-nopack\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 18008
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 17:44:55,800 ERROR 4596 [-/::1/-/2847ms POST /cyclone/v1/createAppLicense] nodejs.ReferenceError: uuid is not defined
+    at AppLicenseService.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\service\appLicense.js:53:50)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppLicenseController.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\controller\appLicense.js:49:17)
+    at async swaggerUI (D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\middleware\swagger.js:20:5)
+    at async D:\其他电脑\code\mylogin-nopack\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xssProtection (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\其他电脑\code\mylogin-nopack\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\其他电脑\code\mylogin-nopack\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4596
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 17:55:47,885 ERROR 6052 [-/::1/-/2849ms POST /cyclone/v1/createAppLicense] nodejs.TypeError: Cannot read properties of undefined (reading 'biz')
+    at AppLicenseService.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\service\appLicense.js:71:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppLicenseController.createAppLicense (D:\其他电脑\code\mylogin-nopack\app\controller\appLicense.js:49:17)
+    at async swaggerUI (D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\middleware\swagger.js:20:5)
+    at async D:\其他电脑\code\mylogin-nopack\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xssProtection (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\其他电脑\code\mylogin-nopack\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\其他电脑\code\mylogin-nopack\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6052
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 18:02:23,771 ERROR 17828 nodejs.ClusterClientNoResponseError: client no response in 60866ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 17828
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 18:10:23,954 ERROR 17828 nodejs.ClusterClientNoResponseError: client no response in 67076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 17828
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 18:12:04,010 ERROR 17828 nodejs.ClusterClientNoResponseError: client no response in 75899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 17828
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 18:15:18,055 ERROR 17576 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:60696)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:817:11)
+    at Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Follower.sendHeartBeat (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (node:internal/timers:559:17)
+errno: -4079
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 17576
+hostname: DESKTOP-I6I98Q9
+
+2022-08-17 18:17:18,229 ERROR 8188 nodejs.ClusterClientNoResponseError: client no response in 78848ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8188
+hostname: DESKTOP-I6I98Q9
+

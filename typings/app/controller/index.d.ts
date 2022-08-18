@@ -2,12 +2,14 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
+import ExportAppLicense = require('../../../app/controller/appLicense');
 import ExportBase = require('../../../app/controller/base');
 import ExportHome = require('../../../app/controller/home');
 import ExportMember = require('../../../app/controller/member');
 
 declare module 'egg' {
   interface IController {
+    appLicense: ExportAppLicense;
     base: ExportBase;
     home: ExportHome;
     member: ExportMember;

@@ -1,0 +1,33 @@
+definitions:
+  MemberLoginInfo:
+    type: object
+    description: 用户登录信息
+    properties: 
+      status:
+        type: boolean
+        description: true：登陆成功，false：登陆失败
+
+  CreateAppLicenseVO:
+    type: object
+    description: 该应用的license验证码
+    properties: 
+      license:
+        type: string
+        description: license对外验证码(每个码对应唯一的允许次数,用完需找管理员重新注册验证码)
+
+  ResultMemberLoginInfoVO:
+    allOf:
+      - $ref: '#/definitions/ApiResponse'
+      - type: object
+        properties:
+          data:
+            $ref: '#/definitions/MemberLoginInfo'
+
+  ResultCreateAppLicenseVO:
+    allOf:
+      - $ref: '#/definitions/ApiResponse'
+      - type: object
+        properties:
+          data:
+            $ref: '#/definitions/CreateAppLicenseVO'
+    

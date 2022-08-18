@@ -36,5 +36,29 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/cyclone/v1/createAppLicense",
+    "regexp": "/^\\/cyclone\\/v1\\/createAppLicense(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/cyclone/v1/get/remainUseTime",
+    "regexp": "/^\\/cyclone\\/v1\\/get\\/remainUseTime(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]
