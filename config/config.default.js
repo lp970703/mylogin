@@ -73,7 +73,7 @@ module.exports = appInfo => {
     swaggerDefinition: {
       info: {
         // API informations (required)
-        title: '万能登录api', // Title (required)
+        title: '弘玑移动端与pc端链接API', // Title (required)
         version: '1.0.0', // Version (required)
         description: '登录', // Description (optional)
         contact: {
@@ -82,7 +82,7 @@ module.exports = appInfo => {
           email: '1277838445@qq.com',
         },
       },
-      host: 'localhost:7001',
+      host: '10.86.9.149:7001',
       schemes: [ 'http' ],
       basePath: '/',
     },

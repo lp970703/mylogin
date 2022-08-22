@@ -18,4 +18,10 @@ module.exports = app => {
     fieldClass: 'utilClasses',
   });
 
+  const utilityPaths = path.join(app.config.baseDir, 'app/utility');
+  app.loader.loadToContext(utilityPaths, 'utility', {
+    call: true,
+    fieldClass: 'utilityClasses',
+  });
+
 };

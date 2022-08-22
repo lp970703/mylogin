@@ -1,0 +1,269 @@
+2022-08-18 00:00:01,019 INFO 13364 [egg-logrotator] app logger reload: got log-reload message
+2022-08-18 04:30:00,016 INFO 13364 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\卢鹏\\AppData\\Local\\Temp\\egg-multipart-tmp\\mylogin"
+2022-08-18 04:30:00,020 INFO 13364 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-08-18 15:11:11,022 INFO 22976 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 15:11:11,050 INFO 22976 [egg-multipart] stream mode enable
+2022-08-18 15:11:11,050 INFO 22976 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 15:11:11,313 INFO 22976 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 15:11:11,315 INFO 22976 [egg-security] use methodnoallow middleware
+2022-08-18 15:11:11,315 INFO 22976 [egg-security] use noopen middleware
+2022-08-18 15:11:11,316 INFO 22976 [egg-security] use nosniff middleware
+2022-08-18 15:11:11,316 INFO 22976 [egg-security] use xssProtection middleware
+2022-08-18 15:11:11,317 INFO 22976 [egg-security] use dta middleware
+2022-08-18 15:11:11,317 INFO 22976 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 15:11:11,324 INFO 22976 [egg:core] dump config after load, 3ms
+2022-08-18 15:11:11,339 INFO 22976 [egg-watcher:application] watcher start success
+2022-08-18 15:11:11,340 INFO 22976 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 15:11:11 GMT+0800 (中国标准时间)
+2022-08-18 15:11:11,399 INFO 22976 [egg:core] dump config after ready, 57ms
+2022-08-18 15:11:12,818 INFO 23240 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 15:11:12,840 INFO 23240 [egg-multipart] stream mode enable
+2022-08-18 15:11:12,840 INFO 23240 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 15:11:13,056 INFO 23240 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 15:11:13,057 INFO 23240 [egg-security] use methodnoallow middleware
+2022-08-18 15:11:13,058 INFO 23240 [egg-security] use noopen middleware
+2022-08-18 15:11:13,058 INFO 23240 [egg-security] use nosniff middleware
+2022-08-18 15:11:13,059 INFO 23240 [egg-security] use xssProtection middleware
+2022-08-18 15:11:13,059 INFO 23240 [egg-security] use dta middleware
+2022-08-18 15:11:13,059 INFO 23240 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 15:11:13,066 INFO 23240 [egg:core] dump config after load, 3ms
+2022-08-18 15:11:13,079 INFO 23240 [egg-watcher:application] watcher start success
+2022-08-18 15:11:13,080 INFO 23240 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 15:11:13 GMT+0800 (中国标准时间)
+2022-08-18 15:11:13,085 INFO 23240 [egg:core] dump config after ready, 4ms
+2022-08-18 15:14:06,813 INFO 13364 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 15:14:06,838 INFO 13364 [egg-multipart] stream mode enable
+2022-08-18 15:14:06,839 INFO 13364 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 15:14:07,065 INFO 13364 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 15:14:07,066 INFO 13364 [egg-security] use methodnoallow middleware
+2022-08-18 15:14:07,067 INFO 13364 [egg-security] use noopen middleware
+2022-08-18 15:14:07,067 INFO 13364 [egg-security] use nosniff middleware
+2022-08-18 15:14:07,068 INFO 13364 [egg-security] use xssProtection middleware
+2022-08-18 15:14:07,068 INFO 13364 [egg-security] use dta middleware
+2022-08-18 15:14:07,068 INFO 13364 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 15:14:07,075 INFO 13364 [egg:core] dump config after load, 3ms
+2022-08-18 15:14:07,088 INFO 13364 [egg-watcher:application] watcher start success
+2022-08-18 15:14:07,088 INFO 13364 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 15:14:07 GMT+0800 (中国标准时间)
+2022-08-18 15:14:07,094 INFO 13364 [egg:core] dump config after ready, 4ms
+2022-08-18 15:14:22,501 INFO 23872 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 15:14:22,525 INFO 23872 [egg-multipart] stream mode enable
+2022-08-18 15:14:22,526 INFO 23872 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 15:14:22,753 INFO 23872 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 15:14:22,754 INFO 23872 [egg-security] use methodnoallow middleware
+2022-08-18 15:14:22,755 INFO 23872 [egg-security] use noopen middleware
+2022-08-18 15:14:22,755 INFO 23872 [egg-security] use nosniff middleware
+2022-08-18 15:14:22,756 INFO 23872 [egg-security] use xssProtection middleware
+2022-08-18 15:14:22,756 INFO 23872 [egg-security] use dta middleware
+2022-08-18 15:14:22,756 INFO 23872 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 15:14:22,763 INFO 23872 [egg:core] dump config after load, 3ms
+2022-08-18 15:14:22,776 INFO 23872 [egg-watcher:application] watcher start success
+2022-08-18 15:14:22,777 INFO 23872 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 15:14:22 GMT+0800 (中国标准时间)
+2022-08-18 15:14:22,781 INFO 23872 [egg:core] dump config after ready, 3ms
+2022-08-18 16:52:03,095 INFO 21420 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 16:52:03,118 INFO 21420 [egg-multipart] stream mode enable
+2022-08-18 16:52:03,119 INFO 21420 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 16:52:03,368 INFO 21420 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 16:52:03,369 INFO 21420 [egg-security] use methodnoallow middleware
+2022-08-18 16:52:03,370 INFO 21420 [egg-security] use noopen middleware
+2022-08-18 16:52:03,370 INFO 21420 [egg-security] use nosniff middleware
+2022-08-18 16:52:03,371 INFO 21420 [egg-security] use xssProtection middleware
+2022-08-18 16:52:03,371 INFO 21420 [egg-security] use dta middleware
+2022-08-18 16:52:03,371 INFO 21420 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 16:52:03,379 INFO 21420 [egg:core] dump config after load, 3ms
+2022-08-18 16:52:03,394 INFO 21420 [egg-watcher:application] watcher start success
+2022-08-18 16:52:03,395 INFO 21420 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 16:52:03 GMT+0800 (中国标准时间)
+2022-08-18 16:52:03,399 INFO 21420 [egg:core] dump config after ready, 3ms
+2022-08-18 16:52:05,196 INFO 19460 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 16:52:05,219 INFO 19460 [egg-multipart] stream mode enable
+2022-08-18 16:52:05,219 INFO 19460 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 16:52:05,466 INFO 19460 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 16:52:05,468 INFO 19460 [egg-security] use methodnoallow middleware
+2022-08-18 16:52:05,468 INFO 19460 [egg-security] use noopen middleware
+2022-08-18 16:52:05,469 INFO 19460 [egg-security] use nosniff middleware
+2022-08-18 16:52:05,469 INFO 19460 [egg-security] use xssProtection middleware
+2022-08-18 16:52:05,470 INFO 19460 [egg-security] use dta middleware
+2022-08-18 16:52:05,470 INFO 19460 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 16:52:05,477 INFO 19460 [egg:core] dump config after load, 3ms
+2022-08-18 16:52:05,489 INFO 19460 [egg-watcher:application] watcher start success
+2022-08-18 16:52:05,490 INFO 19460 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 16:52:05 GMT+0800 (中国标准时间)
+2022-08-18 16:52:05,495 INFO 19460 [egg:core] dump config after ready, 4ms
+2022-08-18 16:57:56,815 INFO 23232 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 16:57:56,838 INFO 23232 [egg-multipart] stream mode enable
+2022-08-18 16:57:56,839 INFO 23232 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 16:57:57,072 INFO 23232 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 16:57:57,074 INFO 23232 [egg-security] use methodnoallow middleware
+2022-08-18 16:57:57,074 INFO 23232 [egg-security] use noopen middleware
+2022-08-18 16:57:57,075 INFO 23232 [egg-security] use nosniff middleware
+2022-08-18 16:57:57,075 INFO 23232 [egg-security] use xssProtection middleware
+2022-08-18 16:57:57,075 INFO 23232 [egg-security] use dta middleware
+2022-08-18 16:57:57,076 INFO 23232 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 16:57:57,083 INFO 23232 [egg:core] dump config after load, 3ms
+2022-08-18 16:57:57,096 INFO 23232 [egg-watcher:application] watcher start success
+2022-08-18 16:57:57,097 INFO 23232 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 16:57:57 GMT+0800 (中国标准时间)
+2022-08-18 16:57:57,101 INFO 23232 [egg:core] dump config after ready, 3ms
+2022-08-18 17:02:06,973 INFO 25144 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:02:06,998 INFO 25144 [egg-multipart] stream mode enable
+2022-08-18 17:02:06,998 INFO 25144 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:02:07,247 INFO 25144 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:02:07,248 INFO 25144 [egg-security] use methodnoallow middleware
+2022-08-18 17:02:07,249 INFO 25144 [egg-security] use noopen middleware
+2022-08-18 17:02:07,249 INFO 25144 [egg-security] use nosniff middleware
+2022-08-18 17:02:07,250 INFO 25144 [egg-security] use xssProtection middleware
+2022-08-18 17:02:07,250 INFO 25144 [egg-security] use dta middleware
+2022-08-18 17:02:07,250 INFO 25144 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:02:07,258 INFO 25144 [egg:core] dump config after load, 3ms
+2022-08-18 17:02:07,274 INFO 25144 [egg-watcher:application] watcher start success
+2022-08-18 17:02:07,275 INFO 25144 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:02:07 GMT+0800 (中国标准时间)
+2022-08-18 17:02:07,280 INFO 25144 [egg:core] dump config after ready, 3ms
+2022-08-18 17:02:22,466 INFO 25172 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:02:22,490 INFO 25172 [egg-multipart] stream mode enable
+2022-08-18 17:02:22,490 INFO 25172 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:02:22,716 INFO 25172 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:02:22,718 INFO 25172 [egg-security] use methodnoallow middleware
+2022-08-18 17:02:22,718 INFO 25172 [egg-security] use noopen middleware
+2022-08-18 17:02:22,719 INFO 25172 [egg-security] use nosniff middleware
+2022-08-18 17:02:22,719 INFO 25172 [egg-security] use xssProtection middleware
+2022-08-18 17:02:22,720 INFO 25172 [egg-security] use dta middleware
+2022-08-18 17:02:22,720 INFO 25172 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:02:22,727 INFO 25172 [egg:core] dump config after load, 3ms
+2022-08-18 17:02:22,740 INFO 25172 [egg-watcher:application] watcher start success
+2022-08-18 17:02:22,741 INFO 25172 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:02:22 GMT+0800 (中国标准时间)
+2022-08-18 17:02:22,746 INFO 25172 [egg:core] dump config after ready, 4ms
+2022-08-18 17:07:37,099 INFO 25164 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:07:37,122 INFO 25164 [egg-multipart] stream mode enable
+2022-08-18 17:07:37,122 INFO 25164 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:07:37,374 INFO 25164 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:07:37,376 INFO 25164 [egg-security] use methodnoallow middleware
+2022-08-18 17:07:37,377 INFO 25164 [egg-security] use noopen middleware
+2022-08-18 17:07:37,377 INFO 25164 [egg-security] use nosniff middleware
+2022-08-18 17:07:37,378 INFO 25164 [egg-security] use xssProtection middleware
+2022-08-18 17:07:37,378 INFO 25164 [egg-security] use dta middleware
+2022-08-18 17:07:37,378 INFO 25164 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:07:37,388 INFO 25164 [egg:core] dump config after load, 3ms
+2022-08-18 17:07:37,400 INFO 25164 [egg-watcher:application] watcher start success
+2022-08-18 17:07:37,401 INFO 25164 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:07:37 GMT+0800 (中国标准时间)
+2022-08-18 17:07:37,406 INFO 25164 [egg:core] dump config after ready, 4ms
+2022-08-18 17:11:04,342 INFO 23600 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:11:04,367 INFO 23600 [egg-multipart] stream mode enable
+2022-08-18 17:11:04,367 INFO 23600 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:11:04,597 INFO 23600 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:11:04,599 INFO 23600 [egg-security] use methodnoallow middleware
+2022-08-18 17:11:04,600 INFO 23600 [egg-security] use noopen middleware
+2022-08-18 17:11:04,600 INFO 23600 [egg-security] use nosniff middleware
+2022-08-18 17:11:04,601 INFO 23600 [egg-security] use xssProtection middleware
+2022-08-18 17:11:04,601 INFO 23600 [egg-security] use dta middleware
+2022-08-18 17:11:04,601 INFO 23600 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:11:04,609 INFO 23600 [egg:core] dump config after load, 3ms
+2022-08-18 17:11:04,622 INFO 23600 [egg-watcher:application] watcher start success
+2022-08-18 17:11:04,623 INFO 23600 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:11:04 GMT+0800 (中国标准时间)
+2022-08-18 17:11:04,629 INFO 23600 [egg:core] dump config after ready, 4ms
+2022-08-18 17:12:36,063 INFO 14300 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:12:36,086 INFO 14300 [egg-multipart] stream mode enable
+2022-08-18 17:12:36,086 INFO 14300 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:12:36,319 INFO 14300 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:12:36,321 INFO 14300 [egg-security] use methodnoallow middleware
+2022-08-18 17:12:36,321 INFO 14300 [egg-security] use noopen middleware
+2022-08-18 17:12:36,322 INFO 14300 [egg-security] use nosniff middleware
+2022-08-18 17:12:36,322 INFO 14300 [egg-security] use xssProtection middleware
+2022-08-18 17:12:36,322 INFO 14300 [egg-security] use dta middleware
+2022-08-18 17:12:36,323 INFO 14300 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:12:36,330 INFO 14300 [egg:core] dump config after load, 3ms
+2022-08-18 17:12:36,342 INFO 14300 [egg-watcher:application] watcher start success
+2022-08-18 17:12:36,343 INFO 14300 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:12:36 GMT+0800 (中国标准时间)
+2022-08-18 17:12:36,348 INFO 14300 [egg:core] dump config after ready, 4ms
+2022-08-18 17:20:59,030 INFO 23072 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:20:59,055 INFO 23072 [egg-multipart] stream mode enable
+2022-08-18 17:20:59,056 INFO 23072 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:20:59,316 INFO 23072 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:20:59,318 INFO 23072 [egg-security] use methodnoallow middleware
+2022-08-18 17:20:59,319 INFO 23072 [egg-security] use noopen middleware
+2022-08-18 17:20:59,319 INFO 23072 [egg-security] use nosniff middleware
+2022-08-18 17:20:59,320 INFO 23072 [egg-security] use xssProtection middleware
+2022-08-18 17:20:59,320 INFO 23072 [egg-security] use dta middleware
+2022-08-18 17:20:59,320 INFO 23072 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:20:59,328 INFO 23072 [egg:core] dump config after load, 3ms
+2022-08-18 17:20:59,342 INFO 23072 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:20:59 GMT+0800 (中国标准时间)
+2022-08-18 17:20:59,344 INFO 23072 [egg-watcher:application] watcher start success
+2022-08-18 17:20:59,348 INFO 23072 [egg:core] dump config after ready, 3ms
+2022-08-18 17:21:18,472 INFO 1340 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:21:18,498 INFO 1340 [egg-multipart] stream mode enable
+2022-08-18 17:21:18,498 INFO 1340 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:21:18,725 INFO 1340 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:21:18,726 INFO 1340 [egg-security] use methodnoallow middleware
+2022-08-18 17:21:18,727 INFO 1340 [egg-security] use noopen middleware
+2022-08-18 17:21:18,727 INFO 1340 [egg-security] use nosniff middleware
+2022-08-18 17:21:18,728 INFO 1340 [egg-security] use xssProtection middleware
+2022-08-18 17:21:18,728 INFO 1340 [egg-security] use dta middleware
+2022-08-18 17:21:18,728 INFO 1340 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:21:18,735 INFO 1340 [egg:core] dump config after load, 3ms
+2022-08-18 17:21:18,746 INFO 1340 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:21:18 GMT+0800 (中国标准时间)
+2022-08-18 17:21:18,747 INFO 1340 [egg-watcher:application] watcher start success
+2022-08-18 17:21:18,752 INFO 1340 [egg:core] dump config after ready, 4ms
+2022-08-18 17:24:10,648 INFO 15276 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:24:10,673 INFO 15276 [egg-multipart] stream mode enable
+2022-08-18 17:24:10,673 INFO 15276 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:24:10,908 INFO 15276 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:24:10,909 INFO 15276 [egg-security] use methodnoallow middleware
+2022-08-18 17:24:10,910 INFO 15276 [egg-security] use noopen middleware
+2022-08-18 17:24:10,910 INFO 15276 [egg-security] use nosniff middleware
+2022-08-18 17:24:10,910 INFO 15276 [egg-security] use xssProtection middleware
+2022-08-18 17:24:10,911 INFO 15276 [egg-security] use dta middleware
+2022-08-18 17:24:10,911 INFO 15276 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:24:10,918 INFO 15276 [egg:core] dump config after load, 3ms
+2022-08-18 17:24:10,932 INFO 15276 [egg-watcher:application] watcher start success
+2022-08-18 17:24:10,933 INFO 15276 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:24:10 GMT+0800 (中国标准时间)
+2022-08-18 17:24:10,937 INFO 15276 [egg:core] dump config after ready, 3ms
+2022-08-18 17:25:41,569 INFO 18344 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:25:41,590 INFO 18344 [egg-multipart] stream mode enable
+2022-08-18 17:25:41,590 INFO 18344 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:25:41,826 INFO 18344 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:25:41,827 INFO 18344 [egg-security] use methodnoallow middleware
+2022-08-18 17:25:41,828 INFO 18344 [egg-security] use noopen middleware
+2022-08-18 17:25:41,828 INFO 18344 [egg-security] use nosniff middleware
+2022-08-18 17:25:41,829 INFO 18344 [egg-security] use xssProtection middleware
+2022-08-18 17:25:41,829 INFO 18344 [egg-security] use dta middleware
+2022-08-18 17:25:41,829 INFO 18344 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:25:41,837 INFO 18344 [egg:core] dump config after load, 3ms
+2022-08-18 17:25:41,852 INFO 18344 [egg-watcher:application] watcher start success
+2022-08-18 17:25:41,852 INFO 18344 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:25:41 GMT+0800 (中国标准时间)
+2022-08-18 17:25:41,857 INFO 18344 [egg:core] dump config after ready, 3ms
+2022-08-18 17:29:15,175 INFO 24796 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:29:15,197 INFO 24796 [egg-multipart] stream mode enable
+2022-08-18 17:29:15,198 INFO 24796 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:30:40,336 INFO 24796 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:30:40,337 INFO 24796 [egg-security] use methodnoallow middleware
+2022-08-18 17:30:40,338 INFO 24796 [egg-security] use noopen middleware
+2022-08-18 17:30:40,338 INFO 24796 [egg-security] use nosniff middleware
+2022-08-18 17:30:40,338 INFO 24796 [egg-security] use xssProtection middleware
+2022-08-18 17:30:40,339 INFO 24796 [egg-security] use dta middleware
+2022-08-18 17:30:40,339 INFO 24796 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:30:40,347 INFO 24796 [egg:core] dump config after load, 3ms
+2022-08-18 17:32:44,583 INFO 3876 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:32:44,603 INFO 3876 [egg-multipart] stream mode enable
+2022-08-18 17:32:44,604 INFO 3876 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:32:44,831 INFO 3876 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:32:44,832 INFO 3876 [egg-security] use methodnoallow middleware
+2022-08-18 17:32:44,833 INFO 3876 [egg-security] use noopen middleware
+2022-08-18 17:32:44,833 INFO 3876 [egg-security] use nosniff middleware
+2022-08-18 17:32:44,833 INFO 3876 [egg-security] use xssProtection middleware
+2022-08-18 17:32:44,834 INFO 3876 [egg-security] use dta middleware
+2022-08-18 17:32:44,834 INFO 3876 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:32:44,841 INFO 3876 [egg:core] dump config after load, 3ms
+2022-08-18 17:32:44,855 INFO 3876 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:32:44 GMT+0800 (中国标准时间)
+2022-08-18 17:32:44,856 INFO 3876 [egg-watcher:application] watcher start success
+2022-08-18 17:32:44,860 INFO 3876 [egg:core] dump config after ready, 3ms
+2022-08-18 17:37:08,614 INFO 24452 [egg:logger] init all loggers with options: {"dir":"D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mylogin-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-18 17:37:08,639 INFO 24452 [egg-multipart] stream mode enable
+2022-08-18 17:37:08,640 INFO 24452 [egg-mysql] connecting root@127.0.0.1:3306/myproject
+2022-08-18 17:37:08,875 INFO 24452 [egg-static] starting static serve /swagger-ui -> D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\public
+2022-08-18 17:37:08,876 INFO 24452 [egg-security] use methodnoallow middleware
+2022-08-18 17:37:08,877 INFO 24452 [egg-security] use noopen middleware
+2022-08-18 17:37:08,877 INFO 24452 [egg-security] use nosniff middleware
+2022-08-18 17:37:08,878 INFO 24452 [egg-security] use xssProtection middleware
+2022-08-18 17:37:08,878 INFO 24452 [egg-security] use dta middleware
+2022-08-18 17:37:08,878 INFO 24452 [egg-security] compose 5 middlewares into one security middleware
+2022-08-18 17:37:08,886 INFO 24452 [egg:core] dump config after load, 3ms
+2022-08-18 17:37:08,899 INFO 24452 [egg-watcher:application] watcher start success
+2022-08-18 17:37:08,900 INFO 24452 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 18 2022 17:37:08 GMT+0800 (中国标准时间)
+2022-08-18 17:37:08,905 INFO 24452 [egg:core] dump config after ready, 4ms
+2022-08-19 00:00:00,015 INFO 24452 [egg-logrotator] clean all log before 15 days
+2022-08-19 00:00:01,019 INFO 24452 [egg-logrotator] broadcast log-reload
+2022-08-19 00:00:01,019 INFO 24452 [egg-logrotator] rotate files success by DayRotator, files ["D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\common-error.log -> D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\common-error.log.2022-08-18","D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\mylogin-web.log -> D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\mylogin-web.log.2022-08-18","D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-web.log -> D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-web.log.2022-08-18","D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-schedule.log -> D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-schedule.log.2022-08-18","D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-agent.log -> D:\\其他电脑\\code\\mylogin-nopack\\logs\\mylogin\\egg-agent.log.2022-08-18"]

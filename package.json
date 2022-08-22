@@ -12,6 +12,7 @@
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.15.2",
     "egg-swagger-jsdoc": "0.0.3",
+    "nodemailer": "^6.7.8",
     "swagger-jsdoc": "^6.1.0",
     "uuid": "^8.3.2"
   },

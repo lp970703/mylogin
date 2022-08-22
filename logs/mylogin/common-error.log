@@ -1,0 +1,10 @@
+2022-08-22 09:54:42,095 ERROR 29772 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 29772
+hostname: DESKTOP-I6I98Q9
+

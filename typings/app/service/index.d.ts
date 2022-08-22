@@ -10,6 +10,7 @@ import ExportAaa = require('../../../app/service/aaa');
 import ExportAppLicense = require('../../../app/service/appLicense');
 import ExportBase = require('../../../app/service/base');
 import ExportMember = require('../../../app/service/member');
+import ExportSendEmail = require('../../../app/service/sendEmail');
 
 declare module 'egg' {
   interface IService {
@@ -17,5 +18,6 @@ declare module 'egg' {
     appLicense: AutoInstanceType<typeof ExportAppLicense>;
     base: AutoInstanceType<typeof ExportBase>;
     member: AutoInstanceType<typeof ExportMember>;
+    sendEmail: AutoInstanceType<typeof ExportSendEmail>;
   }
 }

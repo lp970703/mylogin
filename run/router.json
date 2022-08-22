@@ -60,5 +60,17 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/cyclone/v1/sendEmailByText",
+    "regexp": "/^\\/cyclone\\/v1\\/sendEmailByText(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]

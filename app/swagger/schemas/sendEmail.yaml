@@ -1,0 +1,20 @@
+definitions:
+
+  SendEmailByTextV0:
+    type: object
+    description: 邮件返回结果
+    properties: 
+      code:
+        type: string
+        description: 执行code： 200执行成功，40001执行失败通用异常
+      
+
+  ResultSendEmailByTextVO:
+    allOf:
+      - $ref: '#/definitions/ApiResponse'
+      - type: object
+        properties:
+          data:
+            $ref: '#/definitions/SendEmailByTextV0'
+
+    

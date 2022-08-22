@@ -1,0 +1,154 @@
+2022-08-19 10:43:58,252 ERROR 13396 [-/10.86.5.123/-/3ms GET /member/v1/login?] nodejs.TypeError: Cannot read properties of undefined (reading 'password')
+    at MemberService.checklogin (D:\其他电脑\code\mylogin-nopack\app\service\member.js:34:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MemberController.login (D:\其他电脑\code\mylogin-nopack\app\controller\member.js:79:17)
+    at async swaggerUI (D:\其他电脑\code\mylogin-nopack\node_modules\egg-swagger-jsdoc\app\middleware\swagger.js:20:5)
+    at async D:\其他电脑\code\mylogin-nopack\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xssProtection (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\其他电脑\code\mylogin-nopack\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\其他电脑\code\mylogin-nopack\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\其他电脑\code\mylogin-nopack\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13396
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 10:53:47,694 ERROR 25092 nodejs.ClusterClientNoResponseError: client no response in 71528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 25092
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 11:25:23,776 ERROR 13396 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:61284)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:817:11)
+    at Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Follower.sendHeartBeat (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (node:internal/timers:559:17)
+errno: -4079
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 13396
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 11:25:23,781 ERROR 13396 [-/10.86.9.30/-/1966078ms POST /member/v1/registerUser] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 13396
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 11:25:23,921 ERROR 13396 [-/10.86.9.30/-/136ms POST /member/v1/registerUser] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '6' for key 'mylogin.memberId'
+    at Query.Sequence._packetToError (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\其他电脑\code\mylogin-nopack\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\其他电脑\code\mylogin-nopack\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\其他电脑\code\mylogin-nopack\node_modules\co\index.js:65:19)
+    at D:\其他电脑\code\mylogin-nopack\node_modules\co\index.js:54:5
+    sql: INSERT INTO `mylogin`(`username`, `password`, `phoneNo`, `memberId`, `create_time`) VALUES('string', 'string1', 'string2', 6, '2022-08-19 11:25:23.808')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '6' for key 'mylogin.memberId'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `mylogin`(`username`, `password`, `phoneNo`, `memberId`, `create_time`) VALUES('string', 'string1', 'string2', 6, '2022-08-19 11:25:23.808')"
+headerSent: true
+name: "ER_DUP_ENTRYError"
+pid: 13396
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 11:25:23,925 ERROR 13396 [-/10.86.9.30/-/136ms POST /member/v1/registerUser?username] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '6' for key 'mylogin.memberId'
+    at Query.Sequence._packetToError (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\其他电脑\code\mylogin-nopack\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\其他电脑\code\mylogin-nopack\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\其他电脑\code\mylogin-nopack\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\其他电脑\code\mylogin-nopack\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\其他电脑\code\mylogin-nopack\node_modules\co\index.js:65:19)
+    at D:\其他电脑\code\mylogin-nopack\node_modules\co\index.js:54:5
+    sql: INSERT INTO `mylogin`(`username`, `password`, `phoneNo`, `memberId`, `create_time`) VALUES('string', 'string1', 'string2', 6, '2022-08-19 11:25:23.809')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '6' for key 'mylogin.memberId'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `mylogin`(`username`, `password`, `phoneNo`, `memberId`, `create_time`) VALUES('string', 'string1', 'string2', 6, '2022-08-19 11:25:23.809')"
+headerSent: true
+name: "ER_DUP_ENTRYError"
+pid: 13396
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 17:57:06,400 ERROR 19900 [-/10.86.9.149/-/9472ms POST /cyclone/v1/sendEmailByText] nodejs.ReferenceError: nodemailer is not defined
+    at SendEmailService.sendEmailByText (D:\其他电脑\code\mylogin-nopack\app\service\sendEmail.js:30:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SendEmailController.sendEmailByText (D:\其他电脑\code\mylogin-nopack\app\controller\sendEmail.js:49:17)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19900
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 18:01:02,349 ERROR 12356 nodejs.ClusterClientNoResponseError: client no response in 76705ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 12356
+hostname: DESKTOP-I6I98Q9
+
+2022-08-19 18:10:14,236 ERROR 26032 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:52014)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:817:11)
+    at Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Follower.sendHeartBeat (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (D:\其他电脑\code\mylogin-nopack\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (node:internal/timers:559:17)
+errno: -4079
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 26032
+hostname: DESKTOP-I6I98Q9
+

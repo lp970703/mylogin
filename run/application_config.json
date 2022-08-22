@@ -223,7 +223,7 @@
     "swagger": {
       "swaggerDefinition": {
         "info": {
-          "title": "万能登录api",
+          "title": "弘玑移动端与pc端链接API",
           "version": "1.0.0",
           "description": "登录",
           "contact": {
@@ -232,7 +232,7 @@
             "email": "1277838445@qq.com"
           }
         },
-        "host": "localhost:7001",
+        "host": "10.86.9.149:7001",
         "schemes": [
           "http"
         ],
@@ -272,6 +272,7 @@
         "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.15.2",
         "egg-swagger-jsdoc": "0.0.3",
+        "nodemailer": "^6.7.8",
         "swagger-jsdoc": "^6.1.0",
         "uuid": "^8.3.2"
       },
@@ -634,6 +635,7 @@
         "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.15.2",
         "egg-swagger-jsdoc": "0.0.3",
+        "nodemailer": "^6.7.8",
         "swagger-jsdoc": "^6.1.0",
         "uuid": "^8.3.2"
       },

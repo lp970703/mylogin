@@ -1,0 +1,30 @@
+2022-08-22 04:30:00,005 INFO 30992 [Job#16611138000034011288974707003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-08-22 04:30:00,010 INFO 30992 [Job#16611138000034011288974707003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 5ms. 
+2022-08-22 04:30:00,007 INFO 29772 [Timer] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86399997ms at 2022-08-23 04:30:00.004
+2022-08-22 09:54:40,373 INFO 32256 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 09:54:40,373 INFO 32256 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 09:54:40,373 INFO 32256 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 09:54:41,949 INFO 24544 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 09:54:41,949 INFO 24544 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 09:54:41,950 INFO 24544 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 09:55:27,454 INFO 31788 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 09:55:27,454 INFO 31788 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 09:55:27,454 INFO 31788 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 09:56:12,334 INFO 24492 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 09:56:12,334 INFO 24492 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 09:56:12,334 INFO 24492 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 10:29:36,895 INFO 10676 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 10:29:36,895 INFO 10676 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 10:29:36,895 INFO 10676 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 10:29:46,752 INFO 10540 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 10:29:46,752 INFO 10540 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 10:29:46,752 INFO 10540 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 10:34:16,931 INFO 25656 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 10:34:16,931 INFO 25656 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 10:34:16,931 INFO 25656 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 10:35:03,203 INFO 29432 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 10:35:03,203 INFO 29432 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 10:35:03,203 INFO 29432 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 10:35:16,484 INFO 29912 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 10:35:16,484 INFO 29912 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 10:35:16,484 INFO 29912 [egg-schedule]: register schedule D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
