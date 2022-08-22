@@ -83,6 +83,39 @@ class AppLicenseController extends BaseController {
     this.setRes(res);
   }
 
+  /**
+   * @swagger
+   * /cyclone/v1/update/TotalUseTime:
+   *   post:
+   *     summary: 使用次数加一
+   *     tags:
+   *       - AppLicenseController
+   *     parameters:
+   *       - in: body
+   *         name: updateTotalUseTime
+   *         required: true
+   *         schema:
+   *           type: object
+   *           description: 获取累计次数
+   *           properties:
+   *             appName:
+   *               type: string
+   *               description: 应用名字
+   *             appLicense:
+   *               type: string
+   *               description: 应用appLicense
+   *     responses:
+   *       200:
+   *         description: ok
+   *         schema:
+   *           $ref: '#/definitions/ResultMemberLoginInfoVO'
+   */
+  async updateTotalUseTime() {
+    const { appName, appLicense } = this.ctx.request.body;
+    const res = await this.AppLicenseService.updateTotalUseTime({ appName, appLicense });
+    this.setRes(res);
+  }
+
 }
 
 module.exports = AppLicenseController;

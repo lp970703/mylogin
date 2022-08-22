@@ -75,9 +75,28 @@ class AppLicenseService extends BaseService {
   
   /**
    * 获得通过applicense获取剩余次数
+   * @param {object} body 查询参数
+   * @param {string} body.appName 应用名称
+   * @param {string} body.appLicense 应用的license
    */
-  async getRemainUseTime() {
+  async getRemainUseTime(body) {
+    const res = await this.CycMobileLicenseDAO.selectByAppLicense(body)
+    return res[0];
+  }
 
+  /**
+   * 增加对应appLicense总运行次数
+   * @param {object} body 查询参数
+   * @param {string} body.appName 应用名称
+   * @param {string} body.appLicense 应用的license
+   */
+  async updateTotalUseTime(body) {
+    const AppLicenseRes = await this.CycMobileLicenseDAO.selectByAppLicense(body)
+    if (Array.isArray(AppLicenseRes) && AppLicenseRes.length > 0) {
+      let totalUseTime = AppLicenseRes[0].totalUseTime + 1;
+      let id = AppLicenseRes[0].id
+      await this.CycMobileLicenseDAO.updateTotalUseTimeByLicense({ totalUseTime, id });
+    }
   }
 }
 

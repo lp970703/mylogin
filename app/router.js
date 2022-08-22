@@ -14,6 +14,7 @@ module.exports = app => {
   // autojsAPI
   router.post('/cyclone/v1/createAppLicense', controller.appLicense.createAppLicense);
   router.post('/cyclone/v1/get/remainUseTime', controller.appLicense.getRemainUseTime);
+  router.post('/cyclone/v1/update/TotalUseTime', controller.appLicense.updateTotalUseTime);
 
   // sendEmail
   router.post('/cyclone/v1/sendEmailByText', controller.sendEmail.sendEmailByText);

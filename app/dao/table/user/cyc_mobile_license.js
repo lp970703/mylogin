@@ -67,6 +67,16 @@ class CycMobileLicenseDAO extends BaseDBDAO {
     return res;
   }
 
+  /**
+   * 通过appName来查询验证码使用次数
+   * @param {*} body 
+   * @returns 
+   */
+  async updateTotalUseTimeByLicense(body) {
+    const res = await this._base_update(body);
+    return res;
+  }
+
 } 
 
 module.exports = CycMobileLicenseDAO;
