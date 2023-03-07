@@ -1,9 +1,0 @@
-2022-08-14 04:29:58,836 INFO 14812 [Timer] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86401166ms at 2022-08-15 04:30:00.002
-2022-08-14 04:29:58,835 INFO 22664 [Job#16604225988342890947209456002] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
-2022-08-14 04:29:58,838 INFO 22664 [Job#16604225988342890947209456002] D:\其他电脑\code\mylogin-nopack\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 3ms. 
-2022-08-15 00:00:00,016 INFO 14812 [Timer] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399990ms at 2022-08-16 00:00:00.006
-2022-08-15 00:00:00,012 INFO 22664 [Job#16604928000103592958966825003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
-2022-08-15 00:00:00,016 INFO 22664 [Job#16604928000103592958966825003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 3ms. 
-2022-08-15 00:00:01,016 INFO 22664 [Job#16604928010143592969010363003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
-2022-08-15 00:00:01,023 INFO 22664 [Job#16604928010143592969010363003] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 6ms. 
-2022-08-15 00:00:01,021 INFO 14812 [Timer] D:\其他电脑\code\mylogin-nopack\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399985ms at 2022-08-16 00:00:01.006

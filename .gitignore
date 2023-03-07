@@ -3,12 +3,12 @@ npm-debug.logs
 yarn-error.log
 package-lock.json
 yarn.lock
-coverage/
-.idea/
-run/
+coverage
+.idea
+run
 .DS_Store
 *.sw*
 *.un~
 typings
-.nyc_output/
+.nyc_output
 node_modules
