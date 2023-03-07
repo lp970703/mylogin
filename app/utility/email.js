@@ -28,7 +28,7 @@ class EmailUntil {
         mailContents: getmsgHTML(template, msgData),
         mailBottle: ` <br>
            ========================================================= </br>
-          &nbsp;&nbsp;此消息由工作易邮箱发送，如果您有任何问题，可以直接回复此电子邮件。</body>
+          &nbsp;&nbsp;此消息由lopez邮箱发送，如果您有任何问题，可以直接回复此电子邮件。</body>
          </html>`,
       };
       if (msg.mailContents) {
@@ -45,7 +45,7 @@ function getmsgHTML(template, msgData) {
     case 'text':
       const msgBody = `
       亲爱的伙伴 :</font><br />&nbsp;&nbsp;${msgData}<br />
-      如有疑问，请工作易联系管理员<br />
+      如有疑问，请联系lopez<br />
       `;
       return msgBody;
     default:
