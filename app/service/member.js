@@ -22,6 +22,10 @@ class MemberService extends BaseService {
     return this.ctx.dao.table.user.mylogin;
   }
 
+  get model() {
+    return this.ctx.model;
+  }
+
   /**
    * 通过用户的memberInfo
    * @param {object} memberInfo
@@ -40,7 +44,8 @@ class MemberService extends BaseService {
   async registerUser(memberInfo) {
     this.ctx.logger.info('memberInfo => memberInfo: %j', memberInfo);
     // console.log(memberInfo);
-    const res = await this.MyLoginDAO.selectUserByUsername(memberInfo);
+    // const res = await this.MyLoginDAO.selectUserByUsername(memberInfo);
+    const res = await this.model.mylogin.findAll();
     if (res.length === 0) { // 注册的时候只允许一个用户名唯一
       // 插入会员id、会员id根据数据库表中最后一个数据+1
       const lastone = await this.MyLoginDAO.selectLastOne('memberId');
