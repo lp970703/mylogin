@@ -34,6 +34,7 @@ exports.cors = {
   package: 'egg-cors',
 };
 
+// sequelize
 exports.sequelize = {
   enable: true,
   package: 'egg-sequelize'

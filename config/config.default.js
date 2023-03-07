@@ -82,9 +82,10 @@ module.exports = appInfo => {
           email: '1277838445@qq.com',
         },
       },
+      host: '127.0.0.1:7001',
       // host: '10.86.9.78:7001',
-      host: '55d750073u.yicp.fun',
-      schemes: [ 'https' ],
+      // host: '55d750073u.yicp.fun',
+      schemes: [ 'http', 'https' ],
       basePath: '/',
     },
     apis: [

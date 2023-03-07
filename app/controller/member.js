@@ -50,6 +50,43 @@ class MemberController extends BaseController {
     this.setRes(res);
   }
 
+    /**
+   * @swagger
+   * /member/v1/selectUserByColname:
+   *   post:
+   *     summary: 查询用户通过列名和值
+   *     tags:
+   *       - MemberController
+   *     parameters:
+   *       - in: body
+   *         name: selectUserByColname
+   *         required: true
+   *         schema:
+   *           type: object
+   *           description: 查询用户表参数
+   *           properties:
+   *             colname:
+   *               type: array
+   *               items: 
+   *                 type: string 
+   *               description: 要查的列名
+   *             res:
+   *               type: array
+   *               items: 
+   *                 type: string 
+   *               description: 要查的列名对应的值
+   *     responses:
+   *       200:
+   *         description: ok
+   *         schema:
+   *           $ref: '#/definitions/ResultMemberRegisterVO'
+   */
+  async selectUserByColname() {
+    const param = this.ctx.request.body;
+    const res = await this.memberService.selectUserByColname(param);
+    this.setRes(res); 
+  }
+
   /**
    * @swagger
    * /member/v1/login:

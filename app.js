@@ -24,4 +24,10 @@ module.exports = app => {
     fieldClass: 'utilityClasses',
   });
 
+  const modelPaths = path.join(app.config.baseDir, 'app/model');
+  app.loader.loadToContext(modelPaths, 'model', {
+    call: true,
+    fieldClass: 'modelClasses',
+  });
+
 };

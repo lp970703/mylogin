@@ -15,6 +15,7 @@
     "egg-swagger-jsdoc": "0.0.3",
     "mysql2": "^3.2.0",
     "nodemailer": "^6.7.8",
+    "sequelize": "^6.29.0",
     "swagger-jsdoc": "^6.1.0",
     "uuid": "^8.3.2"
   },
@@ -25,7 +26,8 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "sequelize-cli": "^6.6.0"
   },
   "engines": {
     "node": ">=10.0.0"

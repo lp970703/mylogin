@@ -82,7 +82,7 @@ module.exports = appInfo => {
         },
       },
       host: '60.205.221.118:7002', // 修改了7002这个也要修改,如果
-      schemes: [ 'http' ],
+      schemes: [ 'http', 'https' ],
       basePath: '/',
     },
     apis: [
