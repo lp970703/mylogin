@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OAuth Account Login Page</title>
+  <!-- Bootstrap CDN-->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+  <style type="text/css">
+    body {
+      background-color: #1c1c1c;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 50px;
+      text-shadow: 2px 2px #000;
+    }
+    form {
+      margin-top: 50px;
+      text-align: center;
+    }
+    input[type=text], input[type=password] {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+      width: 300px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+  
+</head>
+
+<body >
+  <h1><%= title %></h1>
+  <!-- 用户点击「登录」按钮时，此页面发起 POST /users/authorize?{{query}} 请求并获取授权码-->
+  <!-- 此时，会调用 OAuth 服务器实现的该路由接口，验证客户端和用户身份后，创建并返回授权码-->
+  <!-- app.all('/api/users/authorize', app.oAuth2Server.authorize()); // 获取授权码-->
+  <!-- 此模式下，授权码会通过重定向 URL 返回给客户端-->
+  <form action="/api/user/authorize?<%=query%>" method="post">
+    <div>
+      <!-- <label for="username">用户名</label> -->
+      <input type="text" name='username' placeholder="用户名">
+    </div>
+    <div>
+      <!-- <label for="password">密码</label> -->
+      <input type="password" name='password' placeholder="密码">
+    </div>
+    <button type="submit">登录</button>
+  </form>
+
+</body>
+
+</html>

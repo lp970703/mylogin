@@ -4,7 +4,7 @@
 
 
 // const swaggerUIAbsolutePath = require('egg-swagger-jsdoc').absolutePath();
-
+const path = require('path')
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -152,6 +152,28 @@ module.exports = appInfo => {
       timestamps: false // 默认情况下，Sequelize会将createdAt和updatedAt的属性添加到模型中，以便您可以知道数据库条目何时进入数据库以及何时被更新。
     }
   };
+
+  // oauth2
+  config.oAuth2Server = {
+    grants: [ 'password', 'client_credentials', 'authorization_code', 'refresh_token' ],
+  };
+
+  // // vue中在egg中的页面
+  // config.static = {
+  //   prefix: '/public/',
+  //   dir: path.join(app.baseDir, 'public')
+  // };
+
+  // config.vuessr = {
+  //   renderOptions: {
+  //     basedir: path.join(app.baseDir, 'app/view')
+  //   }
+  // };
+
+  config.view = {
+    defaultViewEngine:'nunjucks',
+    mapping: {'.html': 'ejs'}
+ }
 
   return {
     ...config,

@@ -4,6 +4,7 @@
 
 
 // const swaggerUIAbsolutePath = require('egg-swagger-jsdoc').absolutePath();
+const path = require('path')
 
 /**
  * @param {Egg.EggAppInfo} appInfo app info
@@ -155,6 +156,30 @@ module.exports = appInfo => {
     }
   };
 
+  // oauth2
+  config.oAuth2Server = {
+    grants: [ 'password', 'client_credentials', 'authorization_code', 'refresh_token' ],
+  };
+
+  // // vue中在egg中的页面
+  // config.static = {
+  //   prefix: '/public/',
+  //   dir: path.join(appInfo.baseDir, 'public')
+  // };
+
+  // config.vuessr = {
+  //   renderOptions: {
+  //     basedir: path.join(appInfo.baseDir, 'app/view')
+  //   },
+  //   // 本地开发 css 采用 inline 方式, 无需注入 css 链接。
+  //   injectCss: false,
+  // };
+
+  config.view = {
+    defaultViewEngine:'nunjucks',
+    mapping: {'.html': 'ejs'} // 意思将 view 文件夹下的 .html 后缀的文件，识别为 .ejs
+ }
+  
   return {
     ...config,
   };
