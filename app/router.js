@@ -12,16 +12,16 @@ module.exports = app => {
   // OAuth 服务的前端登录页面（第一步）
   router.get('/authorize', controller.user.authorize);
   
-  // ouath2中password登录
+  // 通过authorization_code（授权码）获取 accessToken，也可以通过refresh_token（刷新的token）获取accessToken，根据grant_type来判断
   // 获取授权码
   // authorize 是用来获取授权码的路由
   // 生命周期：getClient --> getUser --> saveAuthorizationCode（第二步）
-  app.all('/api/user/authorize', app.oAuth2Server.authorize());
+  router.all('/api/user/authorize', app.oAuth2Server.authorize());
   
-  // 通过authorization_code（授权码）获取 accessToken，也可以通过refresh_token（刷新的token）获取accessToken，根据grant_type来判断
+  // ouath2中password登录获取token，也可以通过授权码获取token(这里通过body里面的grant_type来判断是哪种登录方式：password——密码登录，authorization_code——授权码登录，refresh_token——刷新token登录)
   // token 是用来发放访问令牌的路由
   // 生命周期：getClient --> getAuthorizationCode --> saveToken --> revokeAuthorizationCode（第三步）
-  app.all('/api/user/token', app.oAuth2Server.token());
+  router.all('/api/user/token', app.oAuth2Server.token());
 
   // 通过 accessToken 获取用户信息
   // authenticate 是登录之后可以访问的路由
