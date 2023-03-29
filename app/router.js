@@ -31,7 +31,9 @@ module.exports = app => {
   });
   
   // 关于CGL猎头公司的职位接口
-  // router.get('/cgl/workstation/getWorkInfo', app.oAuth2Server.authenticate(), controller.cgl.getWorkInfo());
+  router.post('/cgl/v1/workstation/getWorkInfo', app.oAuth2Server.authenticate(), controller.cgl.getWorkInfo);
+  router.post('/cgl/v1/workstation/getAllCompany', app.oAuth2Server.authenticate(), controller.cgl.getAllCompany);
+
   // login
   router.get('/member/v1/login', controller.member.login);
   router.post('/member/v1/registerUser', controller.member.registerUser);

@@ -50,7 +50,7 @@ class MemberController extends BaseController {
     this.setRes(res);
   }
 
-    /**
+  /**
    * @swagger
    * /member/v1/selectUserByColname:
    *   post:
