@@ -6,8 +6,10 @@
  */
 module.exports = app => {
   const { router, controller } = app;
+  // 重定向到swagger-ui.html
+  app.router.redirect('/', '/swagger-ui/index.html', 302);
   // 该路径为重定向url的路径，当获取验证码后，根据redirect_uri重定向到这里，然后该方法实现的是获取token
-  router.get('/', controller.home.index);
+  router.get('/ouath2', controller.home.index);
 
   // OAuth 服务的前端登录页面（第一步）
   router.get('/authorize', controller.user.authorize);
